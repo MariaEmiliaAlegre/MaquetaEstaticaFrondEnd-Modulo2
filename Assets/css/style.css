@@ -1,0 +1,23 @@
+.navbar.navbar-expand-lg.bg-info{
+background: rgb(34,193,195);
+background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:rgba(12, 27, 238, 0.822);
+}
+
+i.fa-brands.fa-square-github.fa-2xl:hover{
+    color:rgba(109, 78, 221, 0.993);
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color:rgba(250, 248, 248, 0.822);
+}   
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+.list-group{
+    --bs-list-group-border-color: transparent;
+}
