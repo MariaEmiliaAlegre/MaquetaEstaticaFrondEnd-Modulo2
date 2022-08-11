@@ -1,3 +1,9 @@
+body{
+    background-image: url(../IMG/Fondo\ Sobre\ Mi.jpg);
+    margin-top: 15%;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
 .navbar.navbar-expand-lg.bg-info{
 background: rgb(34,193,195);
 background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
@@ -20,4 +26,8 @@ i.fa-solid.fa-user-lock.fa-2xl:hover{
 }
 .list-group{
     --bs-list-group-border-color: transparent;
+}
+section.about{
+    margin-top: 20rem;
+
 }

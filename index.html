@@ -12,23 +12,34 @@
 <link rel="stylesheet" href="/Assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-info">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/IMG/APLogo-20-20.png" alt="" width="25%" height="">
-              </a>
-              <ul class="list-group list-group-horizontal"> 
-                <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i>
-                <li class="list-group-item"><i class="fa-brands fa-square-github fa-2xl"></i></li>
-                <!-- Button trigger modal -->
-                <li class="list-group-item">
-                    <i class="fa-solid fa-user-lock fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
-                </li>
-            </ul>
-              
+<header >
   
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!--Barra de Nav-->
+    <nav class="navbar navbar-expand-lg bg-info fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/IMG/APLogo-20-20.png" alt="" width="25%" height=""></a>
+          <ul class="list-group list-group-horizontal"> 
+            <ul class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i>
+            <div class="list-group-item"><i class="fa-brands fa-square-github fa-2xl"></i>
+            <i class="fa-solid fa-user-lock fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+          </ul>         
+<!--Banner-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="/Assets/IMG/Salta.jpg" class="d-block w-100" alt="...">
+    </div>
+</div>
+</nav>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+    
+<!--Modal-->           
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -36,7 +47,14 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <div class="mb-3 row">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+        </div>
+      </div>
+  </div>
+        </div>
+         <div class="mb-3 row">
                 <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
                   <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
@@ -49,17 +67,28 @@
                 </div>
               </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+        
         </div>
+  <section id="Sobre Mi" class="about">
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-3">
+        <img src="/Assets/IMG/perfil.jpeg" class="rounded-circle w-100" title="Foto de Perfil">
+      <h3 class="fw-normal">ALEGRE Maria Emilia</h3>
       </div>
+      <div class="col-6 mt-4">
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem culpa alias ut quas, autem, nobis eligendi aliquid cupiditate in odio, ullam ipsam sed quae quaerat molestiae optio! Reiciendis, deserunt?</h5>
+      </div>
+      <div class="col-3"></div>
     </div>
   </div>
-        </div>
-      </nav>
+</section>
+</main>
+              
+     
+      
 
-
-<!-- JavaScript Bundle with Popper -->
+    <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
 </body>
 </html>
