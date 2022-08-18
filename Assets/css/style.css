@@ -1,7 +1,6 @@
 body{
-    background-image: url(../IMG/Fondo\ Sobre\ Mi.jpg);
-    margin-top: 15%;
-    background-size: 130%;
+    background-image: url(/Assets/IMG/Salta.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .navbar.navbar-expand-lg.bg-info{
@@ -14,8 +13,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
 i.fa-brands.fa-linkedin.fa-2xl:hover{
     color:rgba(12, 27, 238, 0.822);
 }
-
-i.fa-brands.fa-square-github.fa-2xl:hover{
+i.fa-brands.fa-github.fa-2xl:hover{
     color:rgba(109, 78, 221, 0.993);
 }
 i.fa-solid.fa-user-lock.fa-2xl:hover{
@@ -27,7 +25,14 @@ i.fa-solid.fa-user-lock.fa-2xl:hover{
 .list-group{
     --bs-list-group-border-color: transparent;
 }
-section.about{
-    margin-top: 20rem;
-
+section.dashboard, section.panel{
+    margin-top: 9rem;
+  
+}
+section.perfil{
+    margin-top: 30rem;
+    background-image: url(/Assets/IMG/Fondo\ Sobre\ Mi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffff;
 }
