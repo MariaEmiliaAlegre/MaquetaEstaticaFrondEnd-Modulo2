@@ -1,7 +1,10 @@
-body{
+#Banner{
     background-image: url(/Assets/IMG/Salta.jpg);
+    background-position: center;
     background-size: 100%;
+    margin: auto;
     background-repeat: no-repeat;
+    z-index: 0;
 }
 .navbar.navbar-expand-lg.bg-info{
 background: rgb(34,193,195);
@@ -35,4 +38,15 @@ section.perfil{
     background-repeat: no-repeat;
     background-size: 100%;
     color: #ffff;
+}
+.rounded-circle.w-25{
+    z-index: 1;
+    background-color: rgb(189, 173, 153);
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: auto;
+    width: 15rem !important;
+    
+    
 }
