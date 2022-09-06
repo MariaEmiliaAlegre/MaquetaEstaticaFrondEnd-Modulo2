@@ -1,52 +1,122 @@
-#Banner{
-    background-image: url(/Assets/IMG/Salta.jpg);
-    background-position: center;
-    background-size: 100%;
-    margin: auto;
-    background-repeat: no-repeat;
-    z-index: 0;
-}
-.navbar.navbar-expand-lg.bg-info{
+.navbar.navbar-expand-lg.bg-dark{
+height: 15%;
 background: rgb(34,193,195);
 background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
 }
-i.fa-brands.fa-linkedin.fa-2xl:hover{
-    color:rgba(12, 27, 238, 0.822);
+.btn:hover {
+	color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
 }
-i.fa-brands.fa-github.fa-2xl:hover{
-    color:rgba(109, 78, 221, 0.993);
+
+.banner{
+  background-image: url(../IMG/banner.jpg);
+  height: 25rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-i.fa-solid.fa-user-lock.fa-2xl:hover{
-    color:rgba(250, 248, 248, 0.822);
-}   
-.list-group{
-    --bs-list-group-bg: transparent;
+
+/* Hard & Soft Skill*/
+progress[value] {
+	appearance: none;
+	width: 100%; height: 20px;
+  background-color: whiteSmoke;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+  color: royalblue;
+  position: relative;
+	margin: 0 0 1.5em; 
 }
-.list-group{
-    --bs-list-group-border-color: transparent;
+progress[value]::-webkit-progress-bar {
+	background-color: whiteSmoke;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
 }
-section.dashboard, section.panel{
-    margin-top: 9rem;
-  
+progress[value]::-webkit-progress-value {
+	position: relative;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+	border-radius:3px;
+	animation: animate-stripes 5s linear infinite;
 }
-section.perfil{
-    margin-top: 30rem;
-    background-image: url(/Assets/IMG/Fondo\ Sobre\ Mi.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: #ffff;
+@keyframes animate-stripes { 100% { background-position: -100px 0; } }
+progress[value]::-webkit-progress-value:after {
+	content: '';
+	position: absolute;
+	width:5px; height:5px;
+	top:7px; right:7px;
+	background-color: white;
+	border-radius: 100%;
 }
-.rounded-circle.w-25{
-    z-index: 1;
-    background-color: rgb(189, 173, 153);
-    top: 50px;
-    left: 50px;
-    width: 100px;
-    height: auto;
-    width: 15rem !important;
-    
-    
+.progress-bar {
+	background-color: whiteSmoke;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+	width: 100%; height:20px;
+}
+.progress-bar span {
+	background-color: royalblue;
+	border-radius: 3px;
+	display: block;
+	text-indent: -9999px;
+}
+p[data-value] { 
+  position: relative; 
+}
+p[data-value]:after {
+	content: attr(data-value) '%';
+	position: absolute; right:0;
+}
+.html5::-webkit-progress-value,
+.python::-webkit-progress-value  {
+	/* Gradient background with Stripes */
+	background-image:
+	-webkit-linear-gradient( 135deg,
+													 transparent,
+													 transparent 33%,
+													 rgba(0,0,0,.1) 33%,
+													 rgba(0,0,0,.1) 66%,
+													 transparent 66%),
+  -webkit-linear-gradient( top,
+														rgba(255, 255, 255, .25),
+														rgba(0,0,0,.2)),
+  -webkit-linear-gradient( left, #09c, #f44);
+}
+
+.css3::-webkit-progress-value,
+.php::-webkit-progress-value 
+{
+	background-image:
+	-webkit-linear-gradient( 135deg,
+													 transparent,
+													 transparent 33%,
+													 rgba(0,0,0,.1) 33%,
+													 rgba(0,0,0,.1) 66%,
+													 transparent 66%),
+  -webkit-linear-gradient( top,
+														rgba(255, 255, 255, .25),
+														rgba(0,0,0,.2)),
+  -webkit-linear-gradient( left, #09c, #ff0);
+}
+
+.bootstrap::-webkit-progress-value,
+.node-js::-webkit-progress-value 
+{
+	background-image:
+	-webkit-linear-gradient( 135deg,
+													 transparent,
+													 transparent 33%,
+													 rgba(0,0,0,.1) 33%,
+													 rgba(0,0,0,.1) 66%,
+													 transparent 66%),
+  -webkit-linear-gradient( top,
+														rgba(255, 255, 255, .25),
+														rgba(0,0,0,.2)),
+  -webkit-linear-gradient( left, #09c, #690);
 }
