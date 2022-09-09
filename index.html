@@ -6,14 +6,14 @@
  <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <script src="https://kit.fontawesome.com/a6d43a2b00.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/MaquetaEstaticaFrondEnd-Modulo2/Assets/css/style.css">
   <title>Alegre Maria Emilia - Portfolio</title>
   </head>
   <body style="background-color: #22c1c3;">
 <!--BARRA NAVEGACION-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/MaquetaEstaticaFrondEnd-Modulo2/index.html">
                 <img src="Assets/IMG/APLogo-20-20.png" alt="" width="18%" height="">
               </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,51 +24,22 @@
                 <div class="px-3" style="font-size: 90%">
             <a href="https://github.com/" target="_blank" class="btn btn-default btn-light "><i class="fab fa-github me-2"></i> <span class="network-name">Github</span></a></li>
             <a href="https://linkedin.com/" target="_blank" class="btn btn-default btn-light "><i class="fab fa-linkedin me-2"></i> <span class="network-name">Linkedin</span></a></li>
-            
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-light me-2 p-2align-self-center" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-sign-in-alt"></i>Login</a>
-    </button>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-outline btn-light align-self-center" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-sharp fa-solid fa-user-lock"></i>  Login</a>
+  </button>
   
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
-                </div>
-              </div>
-              <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword">
-                </div>
-              </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Iniciar Sesión</button>
-        </div>
-      </div>
-    </div>
-  </div>
-        </div>
       </div>
     </nav>
-        <div class="banner">
-          <div class="Banner">
-          </div>
-        </div>
+<div class="banner">
+  <div class="Banner">
+    
+  </div>
+</div>
 
     <!--CONTENEDOR-->
-    <main class="container-fluid" style="max-width: 1000px">
+    <main class="container-fluid pb-5" style="max-width: 1000px">
       <!--HEADER-->
-      <header class="card m-2">
+      <header class="bs card border width: 50px; m-2">
         <div class="px-4 position-relative">
           <img
             src="/MaquetaEstaticaFrondEnd-Modulo2/Assets/IMG/perfil.jpeg"
@@ -76,7 +47,7 @@
             class="rounded-circle position translate-middle-y"
             style="max-width: 25%; height: auto">
         </div>
-        <div class="d-flex justify-content-between p-4">
+        <div class="text-center p-1 mb-5">
           <div>
             <div>
               <h2 class="d-inline">Alegre Maria Emilia</h2>
@@ -91,7 +62,7 @@
       <!--ACERCA DE-->
       <section class="card m-2 p-4">
         <div class="d-flex justify-content-between my-2">
-          <h3>Acerca de</h3>
+          <h3 class="text-center mt-2">Acerca de</h3>
           <i class="fas fa-edit align-self-center"></i>
         </div>
         <div>
@@ -344,20 +315,47 @@
           </div>
         </div>
       </section>
-
-      <!-- Footer -->
-<footer>
-     <div class="container">
-      <div class="row">
-          <div class="col-lg-12">
-              <p class="text-muted small-center">AME Copyright; Alegre Maria Emilia Portfolio - 2022</p>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
+            </div>
           </div>
+        </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+        </div>
       </div>
+    </div>
   </div>
-</footer>
-    </main>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="text-muted small-center">AME Copyright; - Alegre Maria Emilia Portfolio - 2022</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
 </html>
