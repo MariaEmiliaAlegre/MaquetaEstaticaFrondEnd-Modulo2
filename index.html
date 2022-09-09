@@ -51,7 +51,7 @@
           <div>
             <div>
               <h2 class="d-inline">Alegre Maria Emilia</h2>
-              <i class="fas fa-edit align-self-center"></i>
+              <i class="fas fa-edit align-self-center"></i><a href="#PERFIL"></a>
             </div>
             <p class="mb-0">Full Stack Developer Jr.</p>
             <p class="mb-0">Cordoba, Argentina</p>
@@ -324,19 +324,25 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div class="mb-3 row">
+          <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-11 text-center">
+              <i class="fa-solid fa-envelope fa-lg"></i>
             <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
+              <input type="email" class="form-control" id="inputEmail" required>
             </div>
           </div>
         </div>
-          <div class="mb-3 row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword">
-            </div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-11 text-center">
+            <i class="fa-solid fa-envelope fa-lg"></i>
+          <label for="staticEmail" class="col-sm-2 col-form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword" required>
           </div>
+        </div>
+      </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary">Iniciar Sesión</button>
         </div>
