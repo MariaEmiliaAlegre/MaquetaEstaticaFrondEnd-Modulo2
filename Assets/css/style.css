@@ -15,9 +15,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
   letter-spacing: 2px;
 }
-
 .banner{
   background-image: url(../IMG/banner.jpg);
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
   height: 25rem;
   background-size: 100%;
   background-repeat: no-repeat;
