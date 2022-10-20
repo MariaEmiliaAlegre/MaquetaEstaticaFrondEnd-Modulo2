@@ -43,6 +43,7 @@ body {
   --bs-text-opacity: 1;
   color: #000000 !important;
 }
+
 /*FIN SECCION NABVAR-HEADER*/
 
 
@@ -58,6 +59,7 @@ body {
   position: relative;
   z-index: 3;
 }
+
 /*BANNER ANIMACION PAJARITOS*/
 .bird {
   background-image: url(/Assets/IMG/bird-cells.svg);
@@ -323,6 +325,7 @@ body {
     transform: translateY(0vh) translateX(110vw) scale(0.45);
   }
 }
+
 /*CONTENEDOR BANNER*/
 .container {
   max-width: 100%;
@@ -338,6 +341,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 /*FIN SECCION BANNER*/
 
 
@@ -352,6 +356,7 @@ body {
   margin-left: -30%;
   margin: 0%;
 }
+
 /*FULL STACK DEVELOPER JR.*/
 .col-lg-4 {
   font-family: 'Arima Madurai', cursive;
@@ -360,6 +365,7 @@ body {
   margin-top: -15%;
   margin-left: 45%;
 }
+
 /*FIN SECCION ACERCADE*/
 
 
@@ -370,13 +376,15 @@ body {
   margin-top: -5%;
   margin-left: 3%;
 }
+
 .certificaciones {
-      margin-top: 13%;
-      margin: 10%;
-      text-align: center;
-      justify-content: flex;
-  }
-  /*FIN SECCION EDUCACION*/
+  margin-top: 13%;
+  margin: 10%;
+  text-align: center;
+  justify-content: flex;
+}
+
+/*FIN SECCION EDUCACION*/
 
 
 
@@ -419,7 +427,7 @@ progress[value]::-webkit-progress-value {
 
 @keyframes animate-stripes {
   100% {
-      background-position: -100px 0;
+    background-position: -100px 0;
   }
 }
 
@@ -462,63 +470,64 @@ p[data-value]:after {
 .html5::-webkit-progress-value,
 .python::-webkit-progress-value {
   background-image:
-      -webkit-linear-gradient(135deg,
-          transparent,
-          transparent 33%,
-          rgba(0, 0, 0, .1) 33%,
-          rgba(0, 0, 0, .1) 66%,
-          transparent 66%),
-      -webkit-linear-gradient(top,
-          rgba(255, 255, 255, .25),
-          rgba(0, 0, 0, .2)),
-      -webkit-linear-gradient(left, #09c, #f44);
+    -webkit-linear-gradient(135deg,
+      transparent,
+      transparent 33%,
+      rgba(0, 0, 0, .1) 33%,
+      rgba(0, 0, 0, .1) 66%,
+      transparent 66%),
+    -webkit-linear-gradient(top,
+      rgba(255, 255, 255, .25),
+      rgba(0, 0, 0, .2)),
+    -webkit-linear-gradient(left, #09c, #f44);
 }
 
 .css::-webkit-progress-value,
 .php::-webkit-progress-value {
   background-image:
-      -webkit-linear-gradient(135deg,
-          transparent,
-          transparent 33%,
-          rgba(0, 0, 0, .1) 33%,
-          rgba(0, 0, 0, .1) 66%,
-          transparent 66%),
-      -webkit-linear-gradient(top,
-          rgba(255, 255, 255, .25),
-          rgba(0, 0, 0, .2)),
-      -webkit-linear-gradient(left, #09c, #ff0);
+    -webkit-linear-gradient(135deg,
+      transparent,
+      transparent 33%,
+      rgba(0, 0, 0, .1) 33%,
+      rgba(0, 0, 0, .1) 66%,
+      transparent 66%),
+    -webkit-linear-gradient(top,
+      rgba(255, 255, 255, .25),
+      rgba(0, 0, 0, .2)),
+    -webkit-linear-gradient(left, #09c, #ff0);
 }
 
 .bootstrap::-webkit-progress-value,
 .javascript::-webkit-progress-value,
 .node-js::-webkit-progress-value {
   background-image:
-      -webkit-linear-gradient(135deg,
-          transparent,
-          transparent 33%,
-          rgba(0, 0, 0, .1) 33%,
-          rgba(0, 0, 0, .1) 66%,
-          transparent 66%),
-      -webkit-linear-gradient(top,
-          rgba(255, 255, 255, .25),
-          rgba(0, 0, 0, .2)),
-      -webkit-linear-gradient(left, #09c, #690);
+    -webkit-linear-gradient(135deg,
+      transparent,
+      transparent 33%,
+      rgba(0, 0, 0, .1) 33%,
+      rgba(0, 0, 0, .1) 66%,
+      transparent 66%),
+    -webkit-linear-gradient(top,
+      rgba(255, 255, 255, .25),
+      rgba(0, 0, 0, .2)),
+    -webkit-linear-gradient(left, #09c, #690);
 }
 
 .angular::-webkit-progress-value,
 .github::-webkit-progress-value {
   background-image:
-      -webkit-linear-gradient(135deg,
-          transparent,
-          transparent 33%,
-          rgba(0, 0, 0, .1) 33%,
-          rgba(0, 0, 0, .1) 66%,
-          transparent 66%),
-      -webkit-linear-gradient(top,
-          rgba(255, 255, 255, .25),
-          rgba(0, 0, 0, .2)),
-      -webkit-linear-gradient(left, #09c, #690);
+    -webkit-linear-gradient(135deg,
+      transparent,
+      transparent 33%,
+      rgba(0, 0, 0, .1) 33%,
+      rgba(0, 0, 0, .1) 66%,
+      transparent 66%),
+    -webkit-linear-gradient(top,
+      rgba(255, 255, 255, .25),
+      rgba(0, 0, 0, .2)),
+    -webkit-linear-gradient(left, #09c, #690);
 }
+
 /*FIN HARD & SOFT SKILLS*/
 
 
@@ -527,6 +536,7 @@ p[data-value]:after {
 .proyectos {
   margin-top: -8%;
 }
+
 .card {
   width: 100%;
   margin: 20px;
@@ -544,6 +554,7 @@ p[data-value]:after {
   box-shadow: 5px 50px 20px #070707;
   transform: translate(-3%);
 }
+
 /*FIN PROYECTO*/
 
 
@@ -555,5 +566,5 @@ p[data-value]:after {
   padding: 0.5rem;
   height: 10%;
 }
-/*FIN FOOTER*/
 
+/*FIN FOOTER*/
