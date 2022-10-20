@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +11,7 @@
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/a6d43a2b00.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/x-icon" href="/Assets/IMG/favicon.ico">
-  <link rel="stylesheet" href="/Assets/css/styleadmin.css">
+  <link rel="stylesheet" href="/Assets/css/dashboard.css">
   <title>Administración</title>
 </head>
 
@@ -40,30 +39,38 @@
         <ul>
           <li class="vertical">
             <a class="list-group-item list-group-item-action active" id="list-redes-list" data-bs-toggle="list"
-              href="#list-redes" role="tab" aria-controls="list-redes"><i
-                class="fa-solid fa-square-share-nodes"></i></a>
+              href="#list-redes" role="tab" aria-controls="list-redes">
+              <i class="fa-solid fa-square-share-nodes"></i></a>
           </li>
           <li class="vertical">
             <a class="list-group-item list-group-item-action" id="list-banner-list" data-bs-toggle="list"
-              href="#list-banner" role="tab" aria-controls="list-banner"><i class="fa-solid fa-image"></i></a>
+              href="#list-banner" role="tab" aria-controls="list-banner">
+              <i class="fa-solid fa-image"></i></a>
           </li>
           <li class="vertical">
             <a class="list-group-item list-group-item-action" id="list-info-list" data-bs-toggle="list"
-              href="#list-info" role="tab" aria-controls="list-info"><i class="fa-solid fa-circle-info"></i></a>
+              href="#list-info" role="tab" aria-controls="list-info">
+              <i class="fa-solid fa-circle-info"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-experiencia-list" data-bs-toggle="list"
+              href="#list-experiencia" role="tab" aria-controls="list-experiencia">
+              <i class="fa-solid fa-briefcase"></i></a>
           </li>
           <li class="vertical">
             <a class="list-group-item list-group-item-action" id="list-educacion-list" data-bs-toggle="list"
-              href="#list-educacion" role="tab" aria-controls="list-educacion"><i
-                class="fa-solid fa-graduation-cap"></i></a>
+              href="#list-educacion" role="tab" aria-controls="list-educacion">
+              <i class="fa-solid fa-graduation-cap"></i></a>
           </li>
           <li class="vertical">
             <a class="list-group-item list-group-item-action" id="list-skills-list" data-bs-toggle="list"
-              href="#list-skills" role="tab" aria-controls="list-skills"><i class="fa-solid fa-plus-minus"></i></a>
+              href="#list-skills" role="tab" aria-controls="list-skills">
+              <i class="fa-solid fa-plus-minus"></i></a>
           </li>
           <li class="vertical">
             <a class="list-group-item list-group-item-action" id="list-proyectos-list" data-bs-toggle="list"
-              href="#list-proyectos" role="tab" aria-controls="list-proyectos"><i
-                class="fa-solid fa-laptop-file"></i></a>
+              href="#list-proyectos" role="tab" aria-controls="list-proyectos">
+              <i class="fa-solid fa-laptop-file"></i></a>
           </li>
         </ul>
       </nav>
@@ -74,61 +81,65 @@
       <div class="tab-content" id="nav-tabContent">
 
         <!-- Inicio Modal Redes -->
-        <div class="tab-pane fade show active" id="list-redes" role="tabpanel" aria-labelledby="list-redes-list">
-          <div class="container px-5">
-            <form>
-              <div class="my-3">
-                <label for="educacion" class="form-label">SOCIAL</label>
-              </div>
-              <div class="my-3 mt-3">
-                <label for="info" class="form-label">LinkedIn</label>
-              </div>
-              <div class="input-group">
-                <input type="text" class="form-control" id="redes">
-                <button class="btn btn-outline-warning" type="button">Actualizar</button>
-                <button class="btn btn-outline-success" type="button">Guardar</button>
-                <button class="btn btn-outline-danger" type="button">Eliminar</button>
-              </div>
-              <div class="my-3 mt-3">
-                <label for="info" class="form-label">GitHub</label>
-              </div>
-              <div class="input-group">
-                <input type="text" class="form-control" id="redes">
-                <button class="btn btn-outline-warning" type="button">Actualizar</button>
-                <button class="btn btn-outline-success" type="button">Guardar</button>
-                <button class="btn btn-outline-danger" type="button">Eliminar</button>
-              </div>
-            </form>
+        <div class="redes">
+          <div class="tab-pane fade show active" id="list-redes" role="tabpanel" aria-labelledby="list-redes-list">
+            <div class="container px-5">
+              <form>
+                <div class="my-3">
+                  <label for="educacion" class="form-label">SOCIAL</label>
+                </div>
+                <div class="my-3 mt-3">
+                  <label for="info" class="form-label">LinkedIn</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="redes">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+                <div class="my-3 mt-3">
+                  <label for="info" class="form-label">GitHub</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="redes">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
         <!-- Fin Modal Redes -->
 
         <!-- Inicio Modal Banner -->
-        <div class="tab-pane fade" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list">
-          <div class="container px-5">
-            <form>
-              <div class="my-3">
-                <label for="educacion" class="form-label">BANNER</label>
-              </div>
-              <div class="my-3 mt-3">
-                <label for="info" class="form-label">Nombre</label>
-              </div>
-              <div class="input-group">
-                <input type="text" class="form-control" id="banner">
-                <button class="btn btn-outline-warning" type="button">Actualizar</button>
-                <button class="btn btn-outline-success" type="button">Guardar</button>
-                <button class="btn btn-outline-danger" type="button">Eliminar</button>
-              </div>
-              <div class="my-3">
-                <label for="info" class="form-label">IMG</label>
-              </div>
-              <div class="input-group mt-3">
-                <input type="file" class="form-control">
-                <button class="btn btn-outline-warning" type="button">Actualizar</button>
-                <button class="btn btn-outline-success" type="button">Guardar</button>
-                <button class="btn btn-outline-danger" type="button">Eliminar</button>
-              </div>
-            </form>
+        <div class="banner">
+          <div class="tab-pane fade" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list">
+            <div class="container px-5">
+              <form>
+                <div class="my-3">
+                  <label for="educacion" class="form-label">BANNER</label>
+                </div>
+                <div class="my-3 mt-3">
+                  <label for="info" class="form-label">Nombre</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="banner">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+                <div class="my-3">
+                  <label for="info" class="form-label">IMG</label>
+                </div>
+                <div class="input-group mt-3">
+                  <input type="file" class="form-control">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
         <!-- Fin Modal Banner -->
@@ -168,6 +179,65 @@
           </div>
         </div>
         <!-- Fin Modal Info -->
+
+        <!-- Inicio Modal Experiencia -->
+        <div class="experiencia">
+          <div class="tab-pane fade" id="list-experiencia" role="tabpanel" aria-labelledby="list-experiencia-list">
+            <div class="container px-5">
+              <form>
+                <div class="experiencia">
+                  <label for="experiencia" class="form-label">EXPERIENCIAS LABORALES</label>
+                </div>
+                <div class="my-1">
+                  <label for="educacion" class="form-label">Logo</label>
+                </div>
+                <div class="input-group">
+                  <input type="file" class="form-control">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+                <div class="my-1">
+                  <label for="experiencia" class="form-label">Trabajo 1</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="educación">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+                <div class="my-1">
+                  <label for="educacion" class="form-label">Empresa</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="educación">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+                <div class="my-1">
+                  <label for="educacion" class="form-label">Descripcion</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="form-control" id="info" style="height: 100px"></textarea>
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+                <div class="my-1">
+                  <label for="educacion" class="form-label">Duracion</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="educación">
+                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                  <button class="btn btn-outline-success" type="button">Guardar</button>
+                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Modal Experiencia -->
 
         <!-- Inicio Modal Educacion -->
         <div class="tab-pane fade" id="list-educacion" role="tabpanel" aria-labelledby="list-educacion-list">
@@ -222,7 +292,7 @@
                 <button class="btn btn-outline-danger" type="button">Eliminar</button>
               </div>
               <div class="my-1">
-                <label for="educacion" class="form-label">Título</label>
+                <label for="educacion" class="form-label">Certificaciones</label>
               </div>
               <div class="input-group">
                 <input type="file" class="form-control">
@@ -236,58 +306,60 @@
         <!-- Fin Modal Educacion -->
 
         <!-- Inicio Modal Hard & Soft Skill -->
-        <div class="tab-pane fade" id="list-skills" role="tabpanel" aria-labelledby="list-skills-list">
-          <div class="container px-5" >
-            <form>
-              <div class="row">
-                <div class="my-1">
-                  <label for="skills" class="form-label">HARD & SOFT SKILLS</label>
+        <div class="skills">
+          <div class="tab-pane fade" id="list-skills" role="tabpanel" aria-labelledby="list-skills-list">
+            <div class="container px-5">
+              <form>
+                <div class="row">
+                  <div class="my-1">
+                    <label for="skills" class="form-label">HARD & SOFT SKILLS</label>
+                  </div>
+                  <div class="col-5 my-1">
+                    <label for="skillsUno" class="form-label">Habilidad</label>
+                    <input type="text" class="form-control" id="skillUno">
+                  </div>
+                  <div class="col-3 my-1">
+                    <label for="porcentajeUno" class="form-label">Porcentaje</label>
+                    <input type="text" class="form-control" id="porcentajeUno">
+                  </div>
+                  <div class="col-4 my-1 mb-5 mt-4">
+                    <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                    <button class="btn btn-outline-success" type="button">Guardar</button>
+                    <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                  </div>
                 </div>
-                <div class="col-5 my-1">
-                  <label for="skillsUno" class="form-label">Habilidad</label>
-                  <input type="text" class="form-control" id="skillUno">
+                <div class="row">
+                  <div class="col-5 my-1">
+                    <label for="skillsDos" class="form-label">Habilidad</label>
+                    <input type="text" class="form-control" id="skillDos">
+                  </div>
+                  <div class="col-3 my-1">
+                    <label for="porcentajeDos" class="form-label">Porcentaje</label>
+                    <input type="text" class="form-control" id="porcentajeDos">
+                  </div>
+                  <div class="col-4 my-1 mb-5 mt-4">
+                    <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                    <button class="btn btn-outline-success" type="button">Guardar</button>
+                    <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                  </div>
                 </div>
-                <div class="col-3 my-1">
-                  <label for="porcentajeUno" class="form-label">Porcentaje de Conocimiento/Uso</label>
-                  <input type="text" class="form-control" id="porcentajeUno">
+                <div class="row">
+                  <div class="col-5 my-1">
+                    <label for="skillsTres" class="form-label">Habilidad</label>
+                    <input type="text" class="form-control" id="skillTres">
+                  </div>
+                  <div class="col-3 my-1">
+                    <label for="porcentajeTres" class="form-label">Porcentaje</label>
+                    <input type="text" class="form-control" id="porcentajeTres">
+                  </div>
+                  <div class="col-4 my-1 mb-5 mt-4">
+                    <button class="btn btn-outline-warning" type="button">Actualizar</button>
+                    <button class="btn btn-outline-success" type="button">Guardar</button>
+                    <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                  </div>
                 </div>
-                <div class="col-4 mb-5">
-                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
-                  <button class="btn btn-outline-success" type="button">Guardar</button>
-                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 my-1">
-                  <label for="skillsDos" class="form-label">Habilidad</label>
-                  <input type="text" class="form-control" id="skillDos">
-                </div>
-                <div class="col-3 my-1">
-                  <label for="porcentajeDos" class="form-label">Porcentaje de Conocimiento/Uso</label>
-                  <input type="text" class="form-control" id="porcentajeDos">
-                </div>
-                <div class="col-4 mb-5">
-                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
-                  <button class="btn btn-outline-success" type="button">Guardar</button>
-                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 my-1">
-                  <label for="skillsTres" class="form-label">Habilidad</label>
-                  <input type="text" class="form-control" id="skillTres">
-                </div>
-                <div class="col-3 my-1">
-                  <label for="porcentajeTres" class="form-label">Porcentaje de Conocimiento/Uso</label>
-                  <input type="text" class="form-control" id="porcentajeTres">
-                </div>
-                <div class="col-4 mb-5">
-                  <button class="btn btn-outline-warning" type="button">Actualizar</button>
-                  <button class="btn btn-outline-success" type="button">Guardar</button>
-                  <button class="btn btn-outline-danger" type="button">Eliminar</button>
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
         <!-- Fin Modal Hard & Soft Skill -->
@@ -303,7 +375,7 @@
                 <label for="proyectos" class="form-label">Proyecto-1</label>
               </div>
               <div class="input-group">
-                <input type="text" class="form-control" id="educación">
+                <textarea class="form-control" id="info" style="height: 100px"></textarea>
                 <button class="btn btn-outline-warning" type="button">Actualizar</button>
                 <button class="btn btn-outline-success" type="button">Guardar</button>
                 <button class="btn btn-outline-danger" type="button">Eliminar</button>
@@ -321,7 +393,7 @@
                 <label for="proyectos" class="form-label">Proyecto-2</label>
               </div>
               <div class="input-group">
-                <input type="text" class="form-control" id="educación">
+                <textarea class="form-control" id="info" style="height: 100px"></textarea>
                 <button class="btn btn-outline-warning" type="button">Actualizar</button>
                 <button class="btn btn-outline-success" type="button">Guardar</button>
                 <button class="btn btn-outline-danger" type="button">Eliminar</button>
@@ -346,7 +418,7 @@
     <div class="footer">
       <div class="row">
         <div class="col-lg-10 text-center">
-          <div class="seccion container-fluid rounded shadow bg-body-transparent">
+          <div class="footer container-fluid rounded shadow bg-body-transparent">
             <p>AME © - Alegre Maria Emilia -Portfolio - 2022. Córdoba, Argentina - ARGENTINA PROGRAMA</p>
           </div>
         </div>

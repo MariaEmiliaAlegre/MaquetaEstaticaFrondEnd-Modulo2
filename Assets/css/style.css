@@ -1,7 +1,6 @@
 /*COLOR BODY*/
 body {
-  background-image: url(/Assets/IMG/Fondo\ Sobre\ Mi.jpg);
-  height: 100%;
+  background-image: url(/Assets/IMG/FondoSobreMi.jpg);
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -20,6 +19,8 @@ body {
   background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3", endColorstr="#fdbb2d", GradientType=1);
 }
+
+
 
 /*ICONOS*/
 .list-group {
@@ -42,8 +43,10 @@ body {
   --bs-text-opacity: 1;
   color: #000000 !important;
 }
-
 /*FIN SECCION NABVAR-HEADER*/
+
+
+
 
 /* INICIO SECCION BANNER*/
 .banner h1 {
@@ -55,7 +58,6 @@ body {
   position: relative;
   z-index: 3;
 }
-
 /*BANNER ANIMACION PAJARITOS*/
 .bird {
   background-image: url(/Assets/IMG/bird-cells.svg);
@@ -321,7 +323,6 @@ body {
     transform: translateY(0vh) translateX(110vw) scale(0.45);
   }
 }
-
 /*CONTENEDOR BANNER*/
 .container {
   max-width: 100%;
@@ -337,8 +338,10 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 /*FIN SECCION BANNER*/
+
+
+
 
 /* SECCION ACERCADE*/
 /*FOTO DE PERFIL*/
@@ -349,7 +352,6 @@ body {
   margin-left: -30%;
   margin: 0%;
 }
-
 /*FULL STACK DEVELOPER JR.*/
 .col-lg-4 {
   font-family: 'Arima Madurai', cursive;
@@ -358,12 +360,32 @@ body {
   margin-top: -15%;
   margin-left: 45%;
 }
-
 /*FIN SECCION ACERCADE*/
+
+
+
+
+/* SECCION EDUCACION*/
+.educacion {
+  margin-top: -5%;
+  margin-left: 3%;
+}
+.certificaciones {
+      margin-top: 13%;
+      margin: 10%;
+      text-align: center;
+      justify-content: flex;
+  }
+  /*FIN SECCION EDUCACION*/
+
+
+
+
+
 
 /*HARD & SOFT SKILLS*/
 .row {
-  padding: 50px;
+  padding: 20px;
 }
 
 h1 {
@@ -397,7 +419,7 @@ progress[value]::-webkit-progress-value {
 
 @keyframes animate-stripes {
   100% {
-    background-position: -100px 0;
+      background-position: -100px 0;
   }
 }
 
@@ -440,67 +462,71 @@ p[data-value]:after {
 .html5::-webkit-progress-value,
 .python::-webkit-progress-value {
   background-image:
-    -webkit-linear-gradient(135deg,
-      transparent,
-      transparent 33%,
-      rgba(0, 0, 0, .1) 33%,
-      rgba(0, 0, 0, .1) 66%,
-      transparent 66%),
-    -webkit-linear-gradient(top,
-      rgba(255, 255, 255, .25),
-      rgba(0, 0, 0, .2)),
-    -webkit-linear-gradient(left, #09c, #f44);
+      -webkit-linear-gradient(135deg,
+          transparent,
+          transparent 33%,
+          rgba(0, 0, 0, .1) 33%,
+          rgba(0, 0, 0, .1) 66%,
+          transparent 66%),
+      -webkit-linear-gradient(top,
+          rgba(255, 255, 255, .25),
+          rgba(0, 0, 0, .2)),
+      -webkit-linear-gradient(left, #09c, #f44);
 }
 
 .css::-webkit-progress-value,
 .php::-webkit-progress-value {
   background-image:
-    -webkit-linear-gradient(135deg,
-      transparent,
-      transparent 33%,
-      rgba(0, 0, 0, .1) 33%,
-      rgba(0, 0, 0, .1) 66%,
-      transparent 66%),
-    -webkit-linear-gradient(top,
-      rgba(255, 255, 255, .25),
-      rgba(0, 0, 0, .2)),
-    -webkit-linear-gradient(left, #09c, #ff0);
+      -webkit-linear-gradient(135deg,
+          transparent,
+          transparent 33%,
+          rgba(0, 0, 0, .1) 33%,
+          rgba(0, 0, 0, .1) 66%,
+          transparent 66%),
+      -webkit-linear-gradient(top,
+          rgba(255, 255, 255, .25),
+          rgba(0, 0, 0, .2)),
+      -webkit-linear-gradient(left, #09c, #ff0);
 }
 
 .bootstrap::-webkit-progress-value,
 .javascript::-webkit-progress-value,
 .node-js::-webkit-progress-value {
   background-image:
-    -webkit-linear-gradient(135deg,
-      transparent,
-      transparent 33%,
-      rgba(0, 0, 0, .1) 33%,
-      rgba(0, 0, 0, .1) 66%,
-      transparent 66%),
-    -webkit-linear-gradient(top,
-      rgba(255, 255, 255, .25),
-      rgba(0, 0, 0, .2)),
-    -webkit-linear-gradient(left, #09c, #690);
+      -webkit-linear-gradient(135deg,
+          transparent,
+          transparent 33%,
+          rgba(0, 0, 0, .1) 33%,
+          rgba(0, 0, 0, .1) 66%,
+          transparent 66%),
+      -webkit-linear-gradient(top,
+          rgba(255, 255, 255, .25),
+          rgba(0, 0, 0, .2)),
+      -webkit-linear-gradient(left, #09c, #690);
 }
 
 .angular::-webkit-progress-value,
 .github::-webkit-progress-value {
   background-image:
-    -webkit-linear-gradient(135deg,
-      transparent,
-      transparent 33%,
-      rgba(0, 0, 0, .1) 33%,
-      rgba(0, 0, 0, .1) 66%,
-      transparent 66%),
-    -webkit-linear-gradient(top,
-      rgba(255, 255, 255, .25),
-      rgba(0, 0, 0, .2)),
-    -webkit-linear-gradient(left, #09c, #690);
+      -webkit-linear-gradient(135deg,
+          transparent,
+          transparent 33%,
+          rgba(0, 0, 0, .1) 33%,
+          rgba(0, 0, 0, .1) 66%,
+          transparent 66%),
+      -webkit-linear-gradient(top,
+          rgba(255, 255, 255, .25),
+          rgba(0, 0, 0, .2)),
+      -webkit-linear-gradient(left, #09c, #690);
 }
-
 /*FIN HARD & SOFT SKILLS*/
 
+
+
 /*INICIO PROYECTO*/
+.proyectos {
+  margin-top: -8%;
+}
 .card {
   width: 100%;
   margin: 20px;
@@ -518,13 +544,16 @@ p[data-value]:after {
   box-shadow: 5px 50px 20px #070707;
   transform: translate(-3%);
 }
+/*FIN PROYECTO*/
+
 
 /*INICIO FOOTER*/
 .footer {
-  width: 15%;
+  text-align: center;
+  width: 12%;
   background-color: #fcfafa;
-  padding: 0.3rem;
-
+  padding: 0.5rem;
+  height: 10%;
 }
-
 /*FIN FOOTER*/
+

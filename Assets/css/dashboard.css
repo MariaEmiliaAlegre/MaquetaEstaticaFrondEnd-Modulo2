@@ -1,0 +1,165 @@
+body {
+    background-image: url(/Assets/IMG/FondoSobreMi.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+    position: fixed;
+}
+
+/*NABVAR-HEADER*/
+.navbar.navbar-expand-lg.bg-dark {
+    height: 15%;
+    background: rgb(34, 193, 195);
+    background: -moz-linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3", endColorstr="#fdbb2d", GradientType=1);
+}
+
+/*ICONOS*/
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+    margin-right: 20px;
+}
+
+/*ACERCA DE*/
+.rounded-circle {
+    background-image: url(/Assets/IMG/perfil.jpeg);
+    max-width: 30%;
+    margin-left: -60%;
+}
+
+.formulario-login {
+    margin-top: 12%;
+}
+
+.intro {
+    font-size: 2rem;
+}
+
+.login {
+    height: 65vh;
+}
+
+.perfil {
+    width: 70%;
+}
+
+.admin {
+    font-size: 1.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav.vertical {
+
+    margin-left: 0.5rem;
+    margin-top: 150%;
+}
+
+.fa-solid.fa-square-share-nodes:hover {
+    --bs-text-opacity: 1;
+    color: #c1900b;
+}
+
+.fa-solid.fa-image:hover {
+    --bs-text-opacity: 1;
+    color: #00a0cc;
+}
+
+.fa-solid.fa-circle-info:hover {
+    --bs-text-opacity: 1;
+    color: #26ac21;
+}
+
+.fa-solid.fa-briefcase:hover {
+    --bs-text-opacity: 1;
+    color: #f20808;
+}
+
+.fa-solid.fa-graduation-cap:hover {
+    --bs-text-opacity: 1;
+    color: #d8ba69;
+}
+
+.fa-solid.fa-plus-minus:hover {
+    --bs-text-opacity: 1;
+    color: #ef0792;
+}
+
+.fa-solid.fa-laptop-file:hover {
+    --bs-text-opacity: 1;
+    color: #faf6f6;
+}
+
+li.vertical {
+    display: block;
+    margin: 0%;
+    writing-mode: vertical;
+    padding: 0.75rem 0;
+    font-size: 2rem;
+}
+
+.col-11.mt-4 {
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.redes {
+    margin-top: -4%;
+    text-align: center;
+}
+
+.banner {
+    margin-top: -25%;
+    text-align: center;
+}
+
+.acerca-de {
+    margin-top: -33%;
+    text-align: center;
+
+}
+
+.experiencia {
+    margin-top: -35%;
+    text-align: center;
+}
+
+.educacion {
+    margin-top: -55%;
+    text-align: center;
+
+}
+
+.skills {
+    margin-top: -43%;
+    text-align: center;
+}
+
+.mb-5 {
+    margin-top: 2.9%;
+}
+
+.proyectos {
+    margin-top: -48%;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 24%;
+    margin-left: 10%;
+    position: fixed;
+    height: 4%;
+    text-align: center;
+    width: 60%;
+}
