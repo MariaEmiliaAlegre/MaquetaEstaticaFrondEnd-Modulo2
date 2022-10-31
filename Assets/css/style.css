@@ -8,11 +8,13 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   -msn-background-size: cover;
+  overflow-x: hidden;
 }
 
 /*INICIO SECCION NABVAR-HEADER*/
 .navbar.navbar-expand-lg.bg-dark {
-  height: 15%;
+  height: 110px;
+  justify-content: center;
   background: rgb(34, 193, 195);
   background: -moz-linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
   background: -webkit-linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
@@ -20,34 +22,33 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3", endColorstr="#fdbb2d", GradientType=1);
 }
 
-
+.navbar-brand {
+  justify-content: flex-start;
+  display: flex;
+}
 
 /*ICONOS*/
 .list-group {
   --bs-list-group-bg: transparent;
   --bs-list-group-border-color: transparent;
-  margin-right: 20px;
 }
 
-.fa-brands.fa-linkedin-in.fa-2x:hover {
+.fa-brands.fa-linkedin.fa-3x.text-white:hover {
   --bs-text-opacity: 1;
   color: #1713ec !important;
 }
 
-.fa-brands.fa-github-alt.fa-2x:hover {
+.fa-brands.fa-square-github.fa-3x.text-white:hover {
   --bs-text-opacity: 1;
   color: #5b5a99 !important;
 }
 
-.fa-solid.fa-user-lock.fa-2x:hover {
+.fa-solid.fa-user-lock.fa-3x:hover {
   --bs-text-opacity: 1;
   color: #000000 !important;
 }
 
 /*FIN SECCION NABVAR-HEADER*/
-
-
-
 
 /* INICIO SECCION BANNER*/
 .banner h1 {
@@ -62,7 +63,7 @@ body {
 
 /*BANNER ANIMACION PAJARITOS*/
 .bird {
-  background-image: url(/Assets/IMG/bird-cells.svg);
+  background-image: url(/Assets/IMG/);
   background-size: auto 100%;
   width: 88px;
   height: 125px;
@@ -329,14 +330,14 @@ body {
 /*CONTENEDOR BANNER*/
 .container {
   max-width: 100%;
-  margin-top: 7%;
+  margin-top: 0%;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 25rem;
-  background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%), url(/Assets/IMG/photo-1446824505046-e43605ffb17f.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%), url(/Assets/IMG/banner.jpg);
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center;
@@ -344,17 +345,13 @@ body {
 
 /*FIN SECCION BANNER*/
 
-
-
-
 /* SECCION ACERCADE*/
 /*FOTO DE PERFIL*/
 .rounded-circle {
-  margin-top: -5%;
   background-image: url(/Assets/IMG/perfil.jpeg);
   max-width: 30%;
-  margin-left: -30%;
-  margin: 0%;
+  margin: 4%;
+  margin-top: -0.5rem;
 }
 
 /*FULL STACK DEVELOPER JR.*/
@@ -362,23 +359,81 @@ body {
   font-family: 'Arima Madurai', cursive;
   color: rgb(243, 6, 6);
   font-size: 1.5rem;
-  margin-top: -15%;
+  margin-top: -20%;
   margin-left: 45%;
+}
+.card.text-bg-light.mb-3 {
+  height: 20%;
+}
+.card-first {
+  width: 70%;
+  margin-left: 15rem;
+  margin-top: 12rem;
+
 }
 
 /*FIN SECCION ACERCADE*/
 
+/*EXPERIENCIA*/
+.experiencia {
+  margin-top: -6%;
+  text-align: center;
+}
 
+.exp1 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  margin-top: 3%;
+}
 
+.exp2 {
+  height: 32%;
+  border-radius: 10%;
+  margin-top: 3%;
+}
+
+.exp3 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  margin-top: 5%;
+}
+
+/*FIN SECCION EXPERIRNCIA*/
 
 /* SECCION EDUCACION*/
 .educacion {
-  margin-top: -5%;
-  margin-left: 3%;
+  text-align: center;
+  margin-top: -2%;
+}
+
+.logo1 {
+  margin-left: 9%;
+}
+
+.logo2 {
+  margin-left: 14%;
+}
+
+.logo3 {
+  margin-left: 7%;
+}
+
+.logo4 {
+  margin-left: 9%;
+}
+
+.logo5 {
+  margin-left: 8%;
+}
+
+.logo6 {
+  margin-left: 11%;
 }
 
 .certificaciones {
-  margin-top: 13%;
+  margin-top: 15%;
   margin: 10%;
   text-align: center;
   justify-content: flex;
@@ -386,12 +441,11 @@ body {
 
 /*FIN SECCION EDUCACION*/
 
-
-
-
-
-
 /*HARD & SOFT SKILLS*/
+.skills {
+  text-align: center;
+}
+
 .row {
   padding: 20px;
 }
@@ -530,15 +584,13 @@ p[data-value]:after {
 
 /*FIN HARD & SOFT SKILLS*/
 
-
-
 /*INICIO PROYECTO*/
 .proyectos {
-  margin-top: -8%;
+  text-align: center;
 }
 
 .card {
-  width: 100%;
+  height: 28rem;
   margin: 20px;
   text-align: center;
   border-radius: 6px;
@@ -547,6 +599,8 @@ p[data-value]:after {
   box-shadow: 0px 1px 10px #020202;
   cursor: default;
   transition: all 400ms ease;
+  justify-content: center;
+  display: flex;
 
 }
 
