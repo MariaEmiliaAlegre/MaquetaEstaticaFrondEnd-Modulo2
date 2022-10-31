@@ -63,7 +63,7 @@ body {
 
 /*BANNER ANIMACION PAJARITOS*/
 .bird {
-  background-image: url(/Assets/IMG/);
+  background-image: url(/Assets/IMG/banner-birds.svg);
   background-size: auto 100%;
   width: 88px;
   height: 125px;
@@ -363,49 +363,58 @@ body {
   margin-left: 45%;
 }
 .card.text-bg-light.mb-3 {
-  height: 20%;
-}
-.card-first {
+  height: 10%;
   width: 70%;
-  margin-left: 15rem;
-  margin-top: 12rem;
+  text-align: center;
+  margin-left: 17%;
+}
+/*CARD ACERCA DE MI*/
+.card.text-bg-light {
+ margin-top: 12rem;
+ text-align: center;
 
 }
+
 
 /*FIN SECCION ACERCADE*/
 
 /*EXPERIENCIA*/
 .experiencia {
-  margin-top: -6%;
   text-align: center;
+  text-decoration: overline;
+  margin-top: 3rem;
 }
 
 .exp1 {
   width: 5rem;
   height: 5rem;
   border-radius: 1rem;
-  margin-top: 3%;
+  margin-left: 2rem;
+  margin-top: 5rem;
 }
 
 .exp2 {
-  height: 32%;
+  height: 80px;
   border-radius: 10%;
-  margin-top: 3%;
+  margin-left: 2rem;
+  margin-top: 5rem;
 }
 
 .exp3 {
   width: 5rem;
   height: 5rem;
   border-radius: 1rem;
-  margin-top: 5%;
+  margin-left: 2rem;
+  margin-top: 5rem;
 }
 
 /*FIN SECCION EXPERIRNCIA*/
 
 /* SECCION EDUCACION*/
 .educacion {
+  text-decoration: overline;
   text-align: center;
-  margin-top: -2%;
+  margin-top: 2%;
 }
 
 .logo1 {
@@ -444,6 +453,7 @@ body {
 /*HARD & SOFT SKILLS*/
 .skills {
   text-align: center;
+  text-decoration: overline;
 }
 
 .row {
@@ -586,7 +596,9 @@ p[data-value]:after {
 
 /*INICIO PROYECTO*/
 .proyectos {
+  text-decoration: overline;
   text-align: center;
+ justify-content: center;
 }
 
 .card {
@@ -595,12 +607,12 @@ p[data-value]:after {
   text-align: center;
   border-radius: 6px;
   overflow: hidden;
-  background: #fcfafa;
+  background: #d8f3e2;
   box-shadow: 0px 1px 10px #020202;
   cursor: default;
   transition: all 400ms ease;
   justify-content: center;
-  display: flex;
+  
 
 }
 
@@ -619,6 +631,8 @@ p[data-value]:after {
   background-color: #fcfafa;
   padding: 0.5rem;
   height: 10%;
+  justify-content: center;
+  display: flex;
 }
 
 /*FIN FOOTER*/
