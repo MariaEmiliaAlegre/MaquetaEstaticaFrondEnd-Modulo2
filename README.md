@@ -27,3 +27,8 @@ Seccion, Hard & Soft Skills, use las progress bar que nos brinda Bootstrap. Colo
 Seccion, Proyectos, sin bien aun no he cargado ninguno, no quise dejarlo sin la seccion, ya que me gustaria, en un futuro, agregar por lo menos tres proyecos iniicales. Tres proyectos, actualmente con una visual en clase card con un movimiento de cursor. Cada uno describiendo su titulo, img y descripcion con acceso a boton de redireccion a cada proyecto.
 
 Por ultimo la seccion del Footer. De mas esta decir haciendo referencia a la creadora de la Maqueta. O sea yo ... AME- Alegre Maria Emilia.
+
+Tambien deje integrado visualmente el login que da acceso al inicio de sesion o al registro, si damos al boton cerrar deriva a la pagina de admin. Si damos click al logo vuelve al inicio.
+La pagina de administracion, la cual realice con una nav vertical , donde dando click a la seccion deseada se abre una ventana modal para modificar.
+
+
